@@ -12,9 +12,9 @@ from logging.handlers import RotatingFileHandler
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7542241757:")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24579269"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "99dff6c471774c2be6ff3d4623a6c0c0")
+API_HASH = os.environ.get("API_HASH", "")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002490903026"))
 # NAMA OWNER
@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6366880905"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://oliviacalfe329:Sv9RIXu2wSszIwb1@cluster0.3nlfkpo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
